@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding:  0 50px;
+  background-color:  rgb(58, 57, 57);
+  align-items: center;
+  color: white;
+
+}
+
+.nav ul  li{
+  list-style: none;
+}
+
+.nav ul{
+  display: flex;
+  padding: 25px;
+  gap: 40px;
+  font-size: 20px;
+}
+
+.nav ul li a{
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+
+}
+.home  h1{
+  margin: 20px;
+}
+
+.home{
+  min-height: 100vh;
+  /* background-color:  rgb(170, 167, 167); */
+ 
+   background-image: linear-gradient( rgb(132, 20, 236), lightblue  ); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+.form{
+  width: 60%;
+}
+
+.form  input{
+  padding: 15px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 18px;
+
+  
+}
+
+.form button{
+  margin: 20px auto;
+  display: block;
+  padding: 15px;
+  width: 30%;
+  background-color:   rgb(58, 57, 57);
+  color: white;
+  border-radius: 20px;
+  transition: .5s;
+  border: 2px solid black;
+  border-radius: 20px;
+  
+}
+.form button:active{
+  transform: scale(1.1);
+}
+.btnsubmit{
+  width: 50% !important;
+  margin: 10px auto;
+  display: block;
+}
+
+.result{
+  width: 50%;
+}
+.result ul li{
+  background-color: khaki;
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  list-style: none;
+  border: 2px solid black;
+  border-radius: 20px;
+
+  
+}
+.todo{
+display: flex;
+  justify-content: space-between;
+  
+}
+
+.todo{
+  display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .list ul li{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+  }
+ 
+.register{
+  border: 2px solid grey;
+  width: 450px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 0px auto;
+  padding: 20px;
+  background-image:  linear-gradient( rgb(132, 20, 236), lightblue  );
+  border: 2px solid black;
+  
+}
+
+.register>form>input {
+  font-size: 25px;
+  border: 1px solid black;
+  
+  }
+
+  
+
+.registerComponent  {
+  background-color:  lightgrey;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+
+
+.login{
+  border:2px solid gray ;
+  width: 450px;
+  height:350px ;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+ 
+  margin: 0px auto;
+  border: 2px solid black;
+  background-image:  linear-gradient( rgb(132, 20, 236), lightblue    );
+  
+}
+
+.login>form>input{
+  font-size: 24px;
+  border: 1px solid black;
+}
+
+.loginComponent{
+  background-color: lightgrey;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
+
+}
+
+.Logout{
+  border:2px solid gray ;
+  width: 450px;
+  height:350px ;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+ 
+  margin: 0px auto;
+  border: 2px solid black;
+  background-image:  linear-gradient( rgb(132, 20, 236), lightblue    );
+
+}
+
+
+.Logout button{
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 80px;
+  font-size: 20px;
+  background-color: yellow;
+  width: 150px;
+  
+  
+ 
+  
+}
+.Logout  h1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.LogoutComponent{
+  background-color:  lightgray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
